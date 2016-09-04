@@ -5,7 +5,7 @@ Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](htt
 
 ---
 
-[![Travis](https://img.shields.io/travis/rtfd/readthedocs.org.svg?style=flat)](https://travis-ci.org/rtfd/readthedocs.org)
+[![ReadTheDocs](http://hacking-history.readthedocs.io/en/stable/?badge=stable)](https://readthedocs.org/projects/hacking-history/)
 
 ---
 
