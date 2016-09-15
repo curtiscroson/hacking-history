@@ -4,7 +4,7 @@ theme_dir: "theme"
 site_url: https://hacking-history.readthedocs.io
 site_description: Digital content created by David J. Thomas and the students of HIS4936 is open-source. We welcome contributions. This site is based upon the digital workbook of Shawn Graham.
 site_author: David Thomas
-repo_url: https://github.com/thePortus/hacking-history/tree/master/workbook/docs
+repo_url: https://github.com/thePortus/hacking-history/workbook/docs
 pages: 
 - Home: 'index.md'
 - Getting Started: '1_introduction/hacking-history.md'
