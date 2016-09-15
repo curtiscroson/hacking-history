@@ -6,6 +6,6 @@ site_description: Digital content created by David J. Thomas and the students of
 site_author: David Thomas
 repo_url: https://github.com/thePortus/hacking-history/tree/master/workbook/docs
 pages: 
-- Home: 'docs/index.md'
+- Home: 'index.md'
 - Getting Started: '1_introduction/hacking-history.md'
 
