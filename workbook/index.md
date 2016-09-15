@@ -15,3 +15,29 @@ Beyond new techniques, students will first encounter some of the major scholarly
 
 ## Sitemap
 [Introduction](1_introduction/hacking-history.md)
+
+---
+
+## Course Schedule
+
+#### Week 1 -  Title
+**Everyone:**
+    - Reading 1
+    - Reading 2
+**DH II Students Additional:**
+    - Additional Reading 1
+    - Additional Reading 2
+**Grad Students Additional**
+    - Additional Reading 1
+    - Additional Reading 2
+
+#### Week 2 -  Title
+**Everyone:**
+    - Reading 1
+    - Reading 2
+**DH II Students Additional:**
+    - Additional Reading 1
+    - Additional Reading 2
+**Grad Students Additional**
+    - Additional Reading 1
+    - Additional Reading 2
