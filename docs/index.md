@@ -1,7 +1,12 @@
-# Hacking History: Programming Digital Scholarship
-Digital Workbook, [University of South Florida](http://www.usf.edu/), Fall 2016
+# Hacking History
 
 Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](http://thePortus.com/)
+
+---
+
+Created for the students of...<br />
+**HIS4936** *Hacking History: Programming Digital Scholarship*<br />
+[University of South Florida](http://www.usf.edu/), Fall 2016.
 
 ---
 
@@ -13,31 +18,10 @@ Beyond new techniques, students will first encounter some of the major scholarly
 
 ---
 
-## Sitemap
-[Introduction](1_introduction/hacking-history.md)
+[Schedule & Assignments](schedule.md)
 
 ---
 
-## Course Schedule
+[Data-Driven Scholar's Toolkit](toolkit.md)
 
-#### Week 1 -  Title
-**Everyone:**
-    - Reading 1
-    - Reading 2
-**DH II Students Additional:**
-    - Additional Reading 1
-    - Additional Reading 2
-**Grad Students Additional**
-    - Additional Reading 1
-    - Additional Reading 2
-
-#### Week 2 -  Title
-**Everyone:**
-    - Reading 1
-    - Reading 2
-**DH II Students Additional:**
-    - Additional Reading 1
-    - Additional Reading 2
-**Grad Students Additional**
-    - Additional Reading 1
-    - Additional Reading 2
+---
