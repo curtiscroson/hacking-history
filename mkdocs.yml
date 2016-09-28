@@ -1,5 +1,6 @@
 site_name: Hacking History, Programming Digital Scholarship
-theme: material
+theme_dir: theme
+theme: null
 site_url: https://hacking-history.readthedocs.io
 site_description: Digital content created by David J. Thomas and the students of HIS4936 is open-source. We welcome contributions. This site is based upon the digital workbook of Shawn Graham.
 site_author: David Thomas
