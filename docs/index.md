@@ -1,12 +1,14 @@
-# Hacking History
+# Hacking History: Programming Digital Scholarship
 
-Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](http://thePortus.com/)
+Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](http://thePortus.com/)<br />
+**HIS4936** *Hacking History: Programming Digital Scholarship*<br />
+[University of South Florida](http://www.usf.edu/), Fall 2016.
 
 ---
 
-Created for the students of...<br />
-**HIS4936** *Hacking History: Programming Digital Scholarship*<br />
-[University of South Florida](http://www.usf.edu/), Fall 2016.
+<span align="center">
+![Caesar in the Code](supporting/imgs/caesarian_code.png)
+</span>
 
 ---
 
@@ -18,10 +20,3 @@ Beyond new techniques, students will first encounter some of the major scholarly
 
 ---
 
-[Schedule & Assignments](schedule.md)
-
----
-
-[Data-Driven Scholar's Toolkit](toolkit.md)
-
----

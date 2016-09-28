@@ -1,12 +1,21 @@
-site_name: HIS 4936 - Hacking History, Programming Digital Scholarship
-theme: readthedocs
-theme_dir: "theme"
+site_name: Hacking History, Programming Digital Scholarship
+theme: material
 site_url: https://hacking-history.readthedocs.io
 site_description: Digital content created by David J. Thomas and the students of HIS4936 is open-source. We welcome contributions. This site is based upon the digital workbook of Shawn Graham.
 site_author: David Thomas
 repo_url: https://github.com/thePortus/hacking-history/
+extra_css: [supporting/style.css]
 pages: 
 - Home: 'index.md'
-- Schedule: 'schedule.md'
-- Toolkit: 'toolkit.md'
-
+- Setup:
+  - OS X: 'setup/osx.md'
+  - Windows: 'setup/windows.md'
+- Roles:
+  - Data Scientist: 'roles/data_scientist.md'
+  - Visualization Specialist: 'roles/visualization_expert.md'
+  - Digital Analyst: 'roles/digital_analyst.md'
+  - Project Manager: 'roles/project_manager.md'
+- Schedule:
+  - Week 5: 'schedule/week5.md'
+  - Week 6: 'schedule/week6.md'
+- Data-Driven Toolkit: 'toolkit.md'
