@@ -8,15 +8,9 @@ repo_url: https://github.com/thePortus/hacking-history/
 extra_css: [supporting/style.css]
 pages: 
 - Home: 'index.md'
-- Setup:
-  - OS X: 'setup/osx.md'
-  - Windows: 'setup/windows.md'
-- Roles:
-  - Data Scientist: 'roles/data_scientist.md'
-  - Visualization Specialist: 'roles/visualization_expert.md'
-  - Digital Analyst: 'roles/digital_analyst.md'
-  - Project Manager: 'roles/project_manager.md'
-- Schedule:
-  - Week 5: 'schedule/week5.md'
-  - Week 6: 'schedule/week6.md'
+- Getting Started: 'getting_started.md'
 - Data-Driven Toolkit: 'toolkit.md'
+- Roles: 'roles.md'
+- Schedule:
+  - Assignments: 'schedule/assignments.md'
+  - Lessons: 'schedule/lessons.md'

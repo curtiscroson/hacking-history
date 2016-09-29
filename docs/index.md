@@ -6,9 +6,7 @@ Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](htt
 
 ---
 
-<span align="center">
 ![Caesar in the Code](supporting/imgs/caesarian_code.png)
-</span>
 
 ---
 
