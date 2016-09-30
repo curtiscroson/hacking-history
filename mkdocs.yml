@@ -2,10 +2,11 @@ site_name: Hacking History, Programming Digital Scholarship
 theme_dir: theme
 theme: null
 site_url: https://hacking-history.readthedocs.io
-site_description: Digital content created by David J. Thomas and the students of HIS4936 is open-source. We welcome contributions. This site is based upon the digital workbook of Shawn Graham.
-site_author: David Thomas
+site_description: This is the companion workbook for HIS4936 at the University of South Florida. Digital content created by David J. Thomas and the students of HIS4936 is open-source. We welcome contributions. This site is based upon the digital workbook of Shawn Graham.
+site_author: David J. Thomas
+copyright: 'Copyright &copy; 2016 <a href="mailto:dave.a.base@gmail.com">David J. Thomas</a>'
 repo_url: https://github.com/thePortus/hacking-history/
-extra_css: [supporting/style.css]
+repo_name: 'GitHub'
 pages: 
 - Home: 'index.md'
 - Getting Started: 'getting_started.md'
