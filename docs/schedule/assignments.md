@@ -42,7 +42,7 @@
 
 ### Everyone
 
-ROLE-BASED ASSIGNMENTS WILL BE ADDED HERE SHORTLY!
+No universal assignments this week.
 
 ### DH I
 1. Read the textbook, Exploring Big Historical Data, Chapter 4, pp 73-111.
