@@ -48,6 +48,7 @@ No universal assignments this week.
 1. Read the textbook, Exploring Big Historical Data, Chapter 4, pp 73-111.
 2. Download [OpenRefine](http://openrefine.org/). There is no installer, so just stick the file wherever you want to put it. This is one of the most powerful data-cleaning tools out there, and it is totally open-source!
 3. Work through this [tutorial on OpenRefine](http://schoolofdata.org/handbook/recipes/cleaning-data-with-refine/), and come to class ready to try it out.
+4. **UPDATE** In the tutorial above, the link to the dataset is broken. [I've uploaded a copy here.](files/provincial-and-district-hospitals.csv)
 
 ### DH II
 
