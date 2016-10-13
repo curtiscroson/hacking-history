@@ -24,7 +24,37 @@
     1. Clean text in excel
     2. Do formulae
     3. Pivot Tables
-4. Tableau 
+4. Tableau
+
+``` python
+import csv
+
+DATA_FILE = 'awn_usf_2015.csv'
+CLEAN_FILE = 'awn_usf_2016_clean.csv'
+FIELDNAMES = ['title', 'date', 'author', 'edition', 'section', 'column', 'page', 'source', 'text', 'browse_page_next-href', '\ufeffbrowse_page_next', 'link_to_story-href', 'link_to_story']
+
+def readfile(filename):
+    raw_data = []
+    with open(filename, mode='r', encoding='utf-8') as csvfile:
+        csv_reader = csv.DictReader(csvfile)
+        for row in csv_reader:
+            raw_data.append(row)
+    return raw_data
+
+def writefile(filename, filedata):
+    with open(filename, mode='w', encoding='utf-8') as csvfile:
+        csv_writer = csv.DictWriter(csvfile, FIELDNAMES)
+        csv_writer.writeheader()
+        for row in filedata:
+            csv_writer.writerow(row)
+
+data = readfile(DATA_FILE)
+
+for row in data:
+    row['text'] = row['text'].replace('\n', '')
+
+writefile(CLEAN_FILE, data)
+```
 
 ## Flex Activities
 4. Text Analysis. Analyze cleaned text with Overview or Voyant
