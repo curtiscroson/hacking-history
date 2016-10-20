@@ -1,10 +1,14 @@
 # Lessons
 
 ## Week 6
+
 1. [The Evolution of Computing](https://theportus.github.io/presentations/usf-dh-history.html)
 2. Discussion: Race, Gender, Class, and Computation
 
+---
+
 ## Week 7
+
 1. Python (Using PyCharm)
     1. What are Lists, Dictionaries, Functions, and Objects?
     2. Working with [Data](data/week6/awn_usf_2015.csv).
@@ -13,18 +17,16 @@
         3. Do Word Count
         4. Save Results
 
+---
+
 ## Week 8
+
 1. Python (Using PyCharm)
     1.  Work with last week's code....
     2.  Clean with Regex
     3.  Output to folder of text files
 2.  OpenRefine
     1.  Working with [Dirty Data](data/week8/fl-postcards-img-locs.csv)
-3. Excel
-    1. Clean text in excel
-    2. Do formulae
-    3. Pivot Tables
-4. Tableau
 
 ``` python
 import csv
@@ -56,6 +58,25 @@ for row in data:
 writefile(CLEAN_FILE, data)
 ```
 
-## Flex Activities
-4. Text Analysis. Analyze cleaned text with Overview or Voyant
-5. First Steps to Visualization: What is a Visual Essay?
+---
+
+## Week 9
+
+1. Purposes of Visualization: Exploration and Argumentation
+2. Discussion: [What is a Visual Essay?](http://viz.wtf/)
+3. Working with Tableau
+    1. Visualizing Big Data: [Iraq Dataset](http://www.thePortus.com/open_data/war_diaries/Iraq.xls)
+    2. Visualizing Linked Data: Florida Postcards
+        1. [Cards](http://www.thePortus.com/open_data/fl_postcards/Cards.csv)
+        2. [Images](http://www.thePortus.com/open_data/fl_postcards/Images.csv)
+        3. [Image-Locations](http://www.thePortus.com/open_data/fl_postcards/Image-Locations.csv)
+        4. [Image-Subjects](http://www.thePortus.com/open_data/fl_postcards/Image-Subjects.csv)
+        5. [Institutions](http://www.thePortus.com/open_data/fl_postcards/Institutions.csv)
+        6. [Texts](http://www.thePortus.com/open_data/fl_postcards/Texts.csv)
+4. [Designing a Project Workflow](https://sketchboard.io)
+
+**Flex Activity:** Back to Basics with Excel
+
+---
+
+
