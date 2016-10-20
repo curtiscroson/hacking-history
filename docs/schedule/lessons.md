@@ -65,7 +65,11 @@ writefile(CLEAN_FILE, data)
 1. Purposes of Visualization: Exploration and Argumentation
 2. Discussion: [What is a Visual Essay?](http://viz.wtf/)
 3. Working with Tableau
-    1. Visualizing Big Data: [Iraq Dataset](http://www.thePortus.com/open_data/war_diaries/Iraq.xls)
+    1. Visualizing Big Data:
+        1. [Iraq Dataset](http://www.thePortus.com/open_data/war_diaries/Iraq.xls)
+        2. How to create basic charts
+        3. How to ask meaningful questions
+        4. Droplines, formatting, dashboarding
     2. Visualizing Linked Data: Florida Postcards
         1. [Cards](http://www.thePortus.com/open_data/fl_postcards/Cards.csv)
         2. [Images](http://www.thePortus.com/open_data/fl_postcards/Images.csv)
