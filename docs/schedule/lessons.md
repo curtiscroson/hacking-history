@@ -67,7 +67,7 @@ writefile(CLEAN_FILE, data)
 3. Working with Tableau
     1. Visualizing Big Data:
         1. [Iraq Dataset](http://www.thePortus.com/open_data/war_diaries/Iraq.xls)
-        2. [North American Executions](http://www.thePortus.com/data/week6/awn_usf_2015.csv)
+        2. [North American Executions](http://www.thePortus.com/data/week9/executions.csv)
         3. How to create basic charts
         4. How to ask meaningful questions
         5. Droplines, formatting, dashboarding
@@ -83,5 +83,22 @@ writefile(CLEAN_FILE, data)
 **Flex Activity:** Back to Basics with Excel
 
 ---
+
+## Week 9
+
+1. DH II Students
+2. Project Deadlines
+1. [Iraq Dataset](http://www.thePortus.com/open_data/war_diaries/Iraq.xls)
+2. [North American Executions](http://www.thePortus.com/data/week9/executions.xlsx)
+3. Visualizing Linked Data: Florida Postcards
+        1. [Cards](http://www.thePortus.com/open_data/fl_postcards/Cards.csv)
+        2. [Images](http://www.thePortus.com/open_data/fl_postcards/Images.csv)
+        3. [Image-Locations](http://www.thePortus.com/open_data/fl_postcards/Image-Locations.csv)
+        4. [Image-Subjects](http://www.thePortus.com/open_data/fl_postcards/Image-Subjects.csv)
+        5. [Institutions](http://www.thePortus.com/open_data/fl_postcards/Institutions.csv)
+        6. [Texts](http://www.thePortus.com/open_data/fl_postcards/Texts.csv)
+4. [Designing a Project Workflow](https://sketchboard.io)
+5. DECIDING ON A PROJECT
+
 
 
