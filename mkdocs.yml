@@ -12,6 +12,7 @@ pages:
 - Getting Started: 'getting_started.md'
 - Data-Driven Toolkit: 'toolkit.md'
 - Roles: 'roles.md'
+- Project: 'project.md'
 - Schedule:
   - Assignments: 'schedule/assignments.md'
   - Lessons: 'schedule/lessons.md'
