@@ -1,36 +1,87 @@
 # Setup
 
-## OSX
+## Sublime Text
 
-To get started with Python for OSX, you need to open your Terminal application. You can find this tool located in the 'Applications' folder, inside the 'Utilities' subdirectory. Double click it to open your command-line terminal.
+Download [Sublime Text 3](https://www.sublimetext.com/3) and install it for either Windows or OSX
 
-You should see a small window pop up, with some text readout. On the active line, you should see your user information followed by a '$' symbol (e.g. MacbookPro:~ dave_thomas$) and then a blank cursor. If you type or paste anything into the terminal and then press enter, it will execute the commands.
-
-In what follows below, anything in grey code blocks is to be entered in the terminal (except for lines starting with '#', which are comments). Each '@user $' indicates the start of a new command.
-
-First, you need to install some of Apple's XCode software libraries. Type the following command, and then confirm any dialog boxes that pop up. This may take a minute.
-``` shell
-# Brings up dialog to download & install XCode
-@user $ xcode-select --install
+Next, start Sublime Text 3 and then open the consol panel (Menu > View > Show Console). Now, install Sublime Text's plugin manager, called Package Control by copy/pasting the following command into Sublime's console.
+``` ruby
+import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
-Next, we are going to install Homebrew, which is a small and excellent package manager for OSX. This will allow you to install many useful tools without cluttering up your system or dealing with messy configurations.
-
-Copy and paste the torturous looking command into your terminal and Homebrew will download and install.
-``` shell
-# Issue command to d/l and install OSX's package manager, Homebrew
-@user $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Next, we are going to set the Package Control settings to include all packages relevant to this class. To do this, open up Package Control's user settings (Menu > Sublime Text > Preferences > Package Settings > Package Control > User Settings). Copy/paste the following text, replacing any text that might already be there.
+``` json
+{
+    "installed_packages":
+    [
+        "AdvancedNewFile",
+        "Alignment",
+        "All Autocomplete",
+        "Anaconda",
+        "AutoFileName",
+        "BracketHighlighter",
+        "Case Conversion",
+        "Color Highlighter",
+        "ColorPicker",
+        "ConvertToUTF8",
+        "CSS Extended Completions",
+        "DocBlockr",
+        "DocBlockr_Python",
+        "Emmet",
+        "Gist",
+        "Git",
+        "GitGutter",
+        "Glue",
+        "HTML Nest Comments",
+        "HTML-CSS-JS Prettify",
+        "JSHint",
+        "JSHint Gutter",
+        "LaTeXTools",
+        "Local History",
+        "Markdown Preview",
+        "MarkdownEditing",
+        "Material Theme",
+        "Package Control",
+        "Pretty JSON",
+        "Quick File Open",
+        "RegReplace",
+        "SFTP",
+        "SideBarEnhancements",
+        "SideBarGit",
+        "SublimeCodeIntel",
+        "SublimeLinter",
+        "Terminal",
+        "Trimmer",
+        "View In Browser",
+        "Wget"
+    ]
+}
 ```
 
-Now we can use the command `brew` to install any further command-line tools easily. The following comands will install the core tools needed for this class.
-``` shell
-@user $ brew update
-@user $ brew tap caskroom/cask
-@user $ brew install npm wget python python3
-@user $ brew cask install github sublime-text
-@user $ brew cleanup
+This will cause Sublime Text to start downloading these packages the next time you start the app. So, quit and restart Sublime Text. You will likely get a number of messages (including some error messages). You can close/ignore them for now. Once it has finished downloading (you can check the console to see), our last step is to configure Sublime's settings to use the package's correctly. To do that go Sublime's user settings (Menu > Preferences > Settings) and paste the following text, replacing any previous information.
+``` json
+{
+    // If packages should be automatically upgraded when ST starts
+    "auto_upgrade": true,
+    // If missing packages should be automatically installed when ST starts
+    "install_missing": true,
+    // Material Theme
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "theme": "Material-Theme.sublime-theme",
+    // Indenting
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "use_tab_stops": true,
+    // Git
+    "git_update_command": ["pull", "--ff", "--commit"],
+    // Misc
+    "ignored_packages":
+    [
+        "Vintage"
+    ],   
+    "rulers":
+    [
+        80
+    ]
+}
 ```
-
-Now you should be able to use the commands `python`, `python3`. In addition, each comes with its own package manager `pip` and `pip3`, which can be used to automatically download and install module packages. You will also find that Github Desktop and Sublime Text 3 have been added to your applications directory.
-
-## Windows
