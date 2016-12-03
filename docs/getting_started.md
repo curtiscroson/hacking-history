@@ -47,7 +47,6 @@ Next, we are going to set the Package Control settings to include all packages r
         "RegReplace",
         "SFTP",
         "SideBarEnhancements",
-        "SideBarGit",
         "SublimeCodeIntel",
         "SublimeLinter",
         "Terminal",
