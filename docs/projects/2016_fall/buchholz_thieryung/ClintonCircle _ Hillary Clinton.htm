@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+  <title>ClintonCircle / Hillary Clinton</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="google-site-verification" content="D2iSAiCrNJZBH4fAAFl_pxSROKgScjmpYD9ib-6rTzE" />
+
+  <link rel='stylesheet' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/css/58499a9067bbd4656fb0f1245f1b1f4568c2785a/static/css/typefaces.css'/>
+  <link rel="shortcut icon" type="image/x-icon" href="./static/favicon.ico">
+  <!-- REQUIRED LIBS -->
+  <script src='https://d33wubrfki0l68.cloudfront.net/bundles/a7ca7e81d98ec3b0d03e8d99bf4969eff2cb2d2b.js'></script>
+  <script type='text/javascript' src='https://d33wubrfki0l68.cloudfront.net/js/10110f9549e365c0e0b53ef0b353edad4e56216d/static/js/libs/validate.min.js'></script> <!-- simple light-weight form validation -->
+  <meta name="google-site-verification" content="D2iSAiCrNJZBH4fAAFl_pxSROKgScjmpYD9ib-6rTzE" />
+  <meta name="og_type" content="website" />
+  <meta name="og:title" content="ClintonCircle: Wikileaks Network Visualizations" />
+  <meta name="og:site_namesite_name" content="ClintonCircle" />
+  <!-- for Google -->
+  <meta name="description" content="Explore the Wikileaks e-mail networks of Clinton, Podesta, and the Democratic National Committee." />
+
+  <meta name="author" content="Macro Connections Group | MIT Media Lab" />
+  <meta name="application-name" content="ClintonCircle" />
+
+  <!-- for Facebook -->
+  <meta property="og:title" content="ClintonCircle" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://clinton.media.mit.edu/static/images/share_fb_image_network.png" />
+  <meta property="og:image:secure_url" content="https://clinton.media.mit.edu/static/images/share_fb_image_network.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="626" />
+  <meta property="og:url" content="http://clinton.media.mit.edu" />
+  <meta property="og:description" content="Explore the Wikileaks e-mail networks of Clinton, Podesta, and the Democratic National Committee." />
+
+  <!-- for Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="ClintonCircle" />
+  <meta name="twitter:description" content="Explore the Wikileaks e-mail networks of Clinton, Podesta, and the Democratic National Committee." />
+  <meta name="twitter:image" content="https://clinton.media.mit.edu/static/images/share_twitter_image_network.png" />
+
+  <link rel='stylesheet' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/css/dc83f369876a35beb24b1af2d6bff54f955b03fb/static/css/app.css'/>
+  <link rel='stylesheet' media='(max-width: 480px)' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/css/1e80b30d7b0d8fd43cc0059680d17a24236fa0ff/static/css/app_480.css'/>
+  <link rel='stylesheet' media='(max-width: 768px)' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/css/112409b99437c9048f3a8b5d0605597d8a912ad2/static/css/app_768.css'/>
+  <link rel='stylesheet' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/bundles/6f33bfd26c90639458d69181fbf3da5e3a3075c2.css'/>
+  
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
+
+</head>
+<body class="network-bg">
+
+
+  <!-- REQUIRED LIBS -->
+  <script src='https://d33wubrfki0l68.cloudfront.net/bundles/b51fdbda81c78a456d38431422b6141524d7c603.js'></script>
+  <!-- OUR LIBS -->
+  <script>
+  //###### Report errors back to server ###########
+  window.onerror = function (errorMsg, url, lineNumber) {
+    var data = {
+      'errorMsg': errorMsg,
+      'url': url,
+      'lineNumber': lineNumber
+    };
+    $.post('/senderror', { 'json': JSON.stringify(data) });
+    return false;
+  };
+  //#########################################
+  //### fix console is undefined in IE7/8 ###
+  if (!window.console) {
+    console = {log: function() {}};
+  }
+  //##################################
+  </script>
+  <script src='https://d33wubrfki0l68.cloudfront.net/bundles/2871604a3cc2574a81b53344ad9a04080f850ea1.js'></script>
+  <div id="loader">Collecting metadata...</div>
+  <div id="runway" style="display:none;text-align:center;margin:0 auto 0 auto;width:500px;">
+    <img id="user_pic" class="runway_item" src="./static/images/Hillary Clinton.png" />
+    <div id="user_name" class="runway_item"></div>
+    <div id="user_email" class="runway_item"></div>
+    <div id="user_totalemails" class="runway_item"></div>
+    <div id="user_fetchedcount" class="runway_item"></div>
+    <div id="user_queue" class="runway_item"></div>
+  </div>
+  <div id="greetings" style="display:none;padding-left: 40px;">
+    <div class="landing_slab">
+      <div class="landing_header">Collecting metadata...</div>
+      <div id="logout_inner">
+        <div>Please wait while we're collecting your metadata.</div>
+        <br/>
+        <div style="font-size:20px;">Approx. wait time: <strong>1 min.</strong></div>
+        <br/>
+        <div>This page will refresh every 10 seconds.</div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="signoff">&copy; 2013 <a href="http://macroconnections.media.mit.edu">Macro Connections</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a href="http://media.mit.edu">MIT Media Lab</a></div>
+    </div>
+  </div>
+  <div id="wikileaks" style="display:none;"></div>
+  <div id="close" style="display:none;">
+      <div id="close_button">✕</div>
+      <div id="direct">View on wikileaks.org</div>
+  </div>
+  <!--<div id="logout">
+
+  <a id="logout_save" href="#">log out <i><b>&amp; save</b></i></a> •
+  <a id="logout_delete" href="#">log out <i><b>&amp; delete</b></i></a>
+
+</div>-->
+<div id="data" style="display:none">
+  <div class="column" id="centercolumn">
+    <div><svg id="network" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink"></svg></div>
+    <canvas id="networkcanvas" style="display:none;"></canvas>
+    <div id="timeline">
+      <div id="slider-timeslice">
+        <div id="slider-duration"></div>
+        <div id="slider-text"></div>
+      </div>
+      <div id="timeperiods">
+        <a id="slider-all" class="timechoice" href="#">All</a> • <a id="slider-ytd" class="timechoice" href="#">Past Year</a> • <a id="slider-pastmonth" class="timechoice" href="#">Past Month</a> • <a id="slider-pastweek" class="timechoice" href="#">Past Week</a>
+      </div>
+      <div id="slider-range"></div>
+    </div>
+    <div id="slider-range"></div>
+  </div>
+  <div class="column" id="leftcolumn">
+    <div id="page-logo" onclick="location.href='/'">ClintonCircle</div>
+    <div id="searchbox" class="ui-widget">
+      <label for="searchContacts" class="heading2">Lookup Contacts </label>
+      <br/>
+      <input id="searchContacts" />
+    </div>
+    <div id="network-controls">
+      <table>
+        <tr>
+          <td class="leftcell">Charge</td>
+          <td class="rightcell"><div id="slider-charge"></div></td>
+        </tr>
+        <tr>
+          <td class="leftcell">Nodes</td>
+          <td class="rightcell">
+            <table style="width:100%;">
+              <tr>
+                <td>[A]</td>
+                <td style="width:90%;"><div id="slider-nodes"></div></td>
+                <td>[S]</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="leftcell">Links</td>
+          <td class="rightcell">
+            <table style="width:100%;">
+              <tr>
+                <td>[Q]</td>
+                <td style="width:90%;"><div id="slider-links"></div></td>
+                <td>[W]</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="see_members">
+      <div class="heading2">Source</div>
+      <a id="as_no" target="_blank" href="https://wikileaks.org/clinton-emails/">WikiLeaks</a>
+    </div>
+  </div>
+  <div class="column" id="rightcolumn">
+    <div id="userinfopanel">
+      <div id="name" class="person_name"></div>
+      <div class="leftstack">
+        <img id="userpic" class="userpic_circle"/>
+      </div>
+      <div class="leftstack">
+        <div class="infolevel2" id="ncontacts"></div>
+        <div class="infolevel2" id="totalemails"></div>
+      </div>
+      <div class="infolevel3">
+        <a href="#" id="my_stats" onclick="VMail.App.toggleinfo(true, false);">Stats</a> <a id="top_collaborators" href="#" onclick="VMail.App.toggleinfo(false, true);">Top Collaborators</a>
+      </div>
+    </div>
+    <br/>
+    <div id="rankings" style="display:none">
+      <!--<div style='margin-bottom:4px;'><b>Top 15 collaborators</b></div>-->
+      <div class="rankingschoice">
+        <a href="#" id="allTimesLink">All-time</a> <a id="thisYearLink" href="#">Within time-range</a>
+      </div>
+      <div id="rankings-content"></div>
+    </div>
+    <div id="user_stats" class="histograms_container" style="display:none">
+    </div>
+    <div id="contactDetails" class="histograms_container" style="display:none">
+      <div id="contactDetails-content"></div>
+    </div>
+  </div>
+   <!--AddThis Button BEGIN-->
+  <div id="socialstuff" class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+    <a class="addthis_button_linkedin"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
+  <!-- AddThis Button END -->
+  <div class="panel" onclick="location.href='podesta'">
+      <div class="panel_left">
+          <img class="panel_img" src="./static/images/John Podesta.png">
+      </div>
+      <div class="panel_right">See John Podesta's network</div>
+  </div>
+  <div class="panel" id="panel_second" onclick="location.href='dnc'">
+      <div class="panel_left">
+          <img class="panel_img" src="https://d33wubrfki0l68.cloudfront.net/f83237e0ac2ae31cebb63fb8a418fa647744f022/1b7b6/static/images/dnc.png">
+      </div>
+      <div class="panel_right">See DNC's network</div>
+  </div>
+</div>
+<script>
+$("#feedback_form").hide();
+var version = "0.0";
+if(version < 0) setTimeout(function() { location.reload(); }, 10000);
+function htmlDecode(value) {
+  return $('<div/>').html(value).text();
+}
+VMail.App.userinfo = JSON.parse(htmlDecode("{&quot;family_name&quot;: &quot;Clinton&quot;, &quot;email&quot;: &quot;2016 Democratic Party nominee for President of the United States&quot;, &quot;name&quot;: &quot;Hillary Clinton&quot;, &quot;given_name&quot;: &quot;Hillary&quot;}"));
+VMail.App.type = htmlDecode("&lt;type &#39;type&#39;&gt;");console.log(VMail.App.userinfo);
+VMail.App.version = JSON.parse(htmlDecode("0.0"));
+//VMail.App.working = 0;
+//function feedback_action() {
+//  if($('#compose').html() == "Compose") {
+//    $('#compose').html("Cancel");
+//    $('#feedback_form').show();
+//  }
+//  else {
+//    $('#feedback_form').hide();
+//    $('#compose').html("Compose");
+//  }
+//}
+//$("#feedback_form").submit(function() {
+//  var datastring = "feedback_text=" + $("#feedback_text").val();
+//  $.ajax({
+//    type: "POST",
+//    url: '/feedback',
+//    data: datastring,
+//    success: function() {
+//      feedback_action();
+//      $('#loader').html("Sent. Thanks for your feedback!")
+//      $('#loader').fadeIn('fast');
+//      setTimeout(function() {$("#loader").fadeOut('fast');}, 3000);
+//    }
+//  });
+//  return false;
+//});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86408695-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
