@@ -23,5 +23,6 @@
 ## Commercial/Free Trial
 
 * [Tableau Academic for Students and Teachers](http://www.tableau.com/academic) - Data Visualization
+* [Atom Text](https://atom.io) - Text Editor/IDE
 * [Sublime Text](https://www.sublimetext.com/3) and [Package Control](https://packagecontrol.io/installation) - Text Editor/IDE
 * [Zotero](https://www.zotero.org/) - Bibliography/Citation Manager

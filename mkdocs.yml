@@ -9,9 +9,9 @@ repo_url: https://github.com/thePortus/hacking-history/
 repo_name: 'GitHub'
 pages: 
 - Home: 'index.md'
-- Getting Started: 'getting_started.md'
-- Data-Driven Toolkit: 'toolkit.md'
-- Projects:
+- Setting Up: 'setting_up.md'
+- Further Tools: 'further_tools.md'
+- Past Projects:
   - Power of the Presidents: 'projects/2016_fall/brown_zoromski/brown_zoromski.md'
   - Why Code?:  'projects/2016_fall/bruffet_harris/bruffet_harris.md'
   - Wikileaks and the 2016 Race: 'projects/2016_fall/buchholz_thieryung/buchholz_thieryung.md'
