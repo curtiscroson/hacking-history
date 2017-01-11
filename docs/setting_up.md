@@ -6,9 +6,9 @@ You can install them all at once, or gradually over the course. Feel free to pla
 
 1. [Java Interpreter](#1-java-interpreter)
 2. [Python Interpreter](#2-python-interpreter)
-3. [Atom Text Editor](#3-atom-text-editor)
-4. [Slack Team Messenger](#4-slack-team-messenger)
-5. [GitHub Repository Manager](#5-github-repository-manager)
+3. [GitHub Repository Manager](3-github-repository-manager)
+4. [Atom Text Editor](#4-atom-text-editor)
+5. [Slack Team Messenger](#5-slack-team-messenger)
 6. [Tableau Visualization Platform](#6-tableau-visualization-platform)
 7. [Google OpenRefine Data Scrubber](#7-google-openrefine-data-scrubber)
 8. [Trifacta Data Wrangler](#8-trifacta-data-wrangler)
@@ -60,7 +60,17 @@ I want to emphasize, you will not be required to master Python in this course. B
 
 ---
 
-## 3 Atom Text Editor
+## 3 GitHub Repository Manager
+
+1. Install the [git-scm binary](https://git-scm.com/)
+1. [Sign up for a GitHub Account](https://github.com)
+2. [Install GitHub Desktop](https://desktop.github.com/)
+
+* Advanced OSX Users, if you installed Homebrew in the Advanced step above, type `brew install git git-core` in the Terminal
+
+---
+
+## 4 Atom Text Editor
 
 1. [Install Atom](https://atom.io/)
 2. Configure Atom
@@ -85,22 +95,12 @@ process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 
 ---
 
-## 4 Slack Team Messenger
+## 5 Slack Team Messenger
 
 1. [Download and install](https://slack.com/downloads/) a copy of Slack messenger (or use their web interface)
-2. Register an account at our course's Slack channel, [usfdigitalhistory.slack.com](https://usfdigitalhistory.slack.com/).
+2. Register an account at our course's Slack channel, [hacking-history.slack.com](https://hacking-history.slack.com/).
 
-* For those interested, you can also register an account with the main Digital Humanities slack channel, [digitalhumanities.slack.com](https://digitalhumanities.slack.com/)
-
----
-
-## 5 GitHub Repository Manager
-
-1. [Sign up for a GitHub Account](https://github.com)
-2. [Install GitHub Desktop](https://desktop.github.com/)
-
-* Advanced Windows Users, install the [git-scm binary](https://git-scm.com/)
-* Advanced OSX Users, if you installed Homebrew in the Advanced step above, type `brew install git git-core` in the Terminal
+* For those interested, you can also register an account with the main Digital Humanities slack channel, [hacking-history.slack.com](https://digitalhumanities.slack.com/)
 
 ---
 
@@ -124,4 +124,3 @@ process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 2. Start the Trifacta application and enter your account username and password
 
 ---
-
