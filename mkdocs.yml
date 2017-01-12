@@ -7,17 +7,7 @@ site_author: David J. Thomas
 copyright: 'Copyright &copy; 2016 <a href="mailto:dave.a.base@gmail.com">David J. Thomas</a>'
 repo_url: https://github.com/thePortus/hacking-history/
 repo_name: 'GitHub'
-pages: 
+pages:
 - Home: 'index.md'
 - Setting Up: 'setting_up.md'
-- Further Tools: 'further_tools.md'
-- Past Projects:
-  - Power of the Presidents: 'projects/2016_fall/brown_zoromski/brown_zoromski.md'
-  - Why Code?:  'projects/2016_fall/bruffet_harris/bruffet_harris.md'
-  - Wikileaks and the 2016 Race: 'projects/2016_fall/buchholz_thieryung/buchholz_thieryung.md'
-  - Battlefield Memorials: 'projects/2016_fall/croson/croson.md'
-  - Nuclear Testing and the News: 'projects/2016_fall/donahue/donahue.md'
-  # - Confederate Economics: 'projects/2016_fall/dulabone/dulabone.md'
-  - Hacking Food Sustainability: 'projects/2016_fall/fort/fort.md'
-  - Divinity and Imperial Cult: 'projects/2016_fall/johnson_zalman/johnson_zalman.md'
-  - Ghostwriting H.P. Lovecraft: 'projects/2016_fall/julien/julien.md'
+- Toolkit: 'toolkit.md'

@@ -4,14 +4,13 @@ This page contains brief instructions on how to install the core applications th
 
 You can install them all at once, or gradually over the course. Feel free to play around with any of these tools
 
-1. [Java Interpreter](#1-java-interpreter)
-2. [Python Interpreter](#2-python-interpreter)
-3. [GitHub Repository Manager](3-github-repository-manager)
-4. [Atom Text Editor](#4-atom-text-editor)
-5. [Slack Team Messenger](#5-slack-team-messenger)
-6. [Tableau Visualization Platform](#6-tableau-visualization-platform)
-7. [Google OpenRefine Data Scrubber](#7-google-openrefine-data-scrubber)
-8. [Trifacta Data Wrangler](#8-trifacta-data-wrangler)
+1. [Python Interpreter](#1-python-interpreter)
+2. [GitHub Repository Manager](2-github-repository-manager)
+3. [Atom Text Editor](#3-atom-text-editor)
+4. [Slack Team Messenger](#4-slack-team-messenger)
+5. [Tableau Visualization Platform](#5-tableau-visualization-platform)
+6. [Google OpenRefine Data Scrubber](#6-google-openrefine-data-scrubber)
+7. [Trifacta Data Wrangler](#7-trifacta-data-wrangler)
 
 ---
 
@@ -23,13 +22,13 @@ Some of the following passages refer to your 'Terminal', to access it, follow th
 
 Go to your Applications folder, then the Utilities folder. Then, click the 'Terminal' application.
 
-*FOR ADMIN PRIVILEGES:* <br> If you need admin priviledges, start your command with 'sudo'. For example, `fakecommand --fake-option "some/fake/path"` would become `sudo fakecommand --fake-option "some/fake/path"`. You will be asked to enter your password, and then the command will run.
+*FOR ADMIN PRIVILEGES:* <br> If you need admin privileges, start your command with 'sudo'. For example, `fakecommand --fake-option "some/fake/path"` would become `sudo fakecommand --fake-option "some/fake/path"`. You will be asked to enter your password, and then the command will run.
 
 **Windows:**
 
 Go to your 'Start Menu', then the' Windows PowerShell' folder, and click Windows PowerShell.
 
-*FOR ADMIN PRIVILEGES:* If you need admin priviledges, instead of left-clicking, **RIGHT-CLICK** the 'Windows PowerShell' application and Choose 'Launch as Administrator' (or something like that). Enter your password when prompted.
+*FOR ADMIN PRIVILEGES:* If you need admin privileges, instead of left-clicking, **RIGHT-CLICK** the 'Windows PowerShell' application and Choose 'Launch as Administrator' (or something like that). Enter your password when prompted.
 
 To learn the basics of command line, try the [free course at Codecademy](https://www.codecademy.com/)!
 
@@ -37,16 +36,7 @@ To learn the basics of command line, try the [free course at Codecademy](https:/
 
 ---
 
-## 1 Java Interpreter
-
-Some applications require the latest version of Java in order to work.
-
-1. Make sure you have the latest version of [Java](https://www.java.com/en/download/).
-2. Either update or install if you do not already have it.
-
----
-
-## 2 Python Interpreter
+## 1 Python Interpreter
 
 We will encounter Python, a very popular programming language. The 'English-like' appearance of the language makes it accessible to non-programmers. Nevertheless, it is very powerful and ideal for accomplishing many tasks in digital research.
 
@@ -60,7 +50,7 @@ I want to emphasize, you will not be required to master Python in this course. B
 
 ---
 
-## 3 GitHub Repository Manager
+## 2 GitHub Repository Manager
 
 1. Install the [git-scm binary](https://git-scm.com/)
 1. [Sign up for a GitHub Account](https://github.com)
@@ -70,7 +60,7 @@ I want to emphasize, you will not be required to master Python in this course. B
 
 ---
 
-## 4 Atom Text Editor
+## 3 Atom Text Editor
 
 1. [Install Atom](https://atom.io/)
 2. Configure Atom
@@ -95,7 +85,7 @@ process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 
 ---
 
-## 5 Slack Team Messenger
+## 4 Slack Team Messenger
 
 1. [Download and install](https://slack.com/downloads/) a copy of Slack messenger (or use their web interface)
 2. Register an account at our course's Slack channel, [hacking-history.slack.com](https://hacking-history.slack.com/).
@@ -104,21 +94,23 @@ process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
 
 ---
 
-## 6 Tableau Visualization Platform
+## 5 Tableau Visualization Platform
 
-1. [Sign up for a student account] (assuming you are a student), and then follow the instructions to install Tableau Desktop.
+1. [Sign up for a student account](https://www.tableau.com/academic) (assuming you are a student), and then follow the instructions to install Tableau Desktop.
 2. You will be able to use a 14-day trial, during which they will contact you with details for free access for a *full year.*
 
 ---
 
-## 7 Google OpenRefine Data Scrubber
+## 6 Google OpenRefine Data Scrubber
 
 1. Head to [OpenRefine](http://openrefine.org/) and download the application.
 2. You have to manually move the application to the location where you want to install it.
 
 ---
 
-## 8 Trifacta Data Wrangler
+## 7 Trifacta Data Wrangler
+
+*optional*
 
 1. Head to [Trifacta](https://www.trifacta.com/start-wrangling/), register for a free account. Download the application, verify your email.
 2. Start the Trifacta application and enter your account username and password
