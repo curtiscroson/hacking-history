@@ -12,8 +12,8 @@
 
 ### Week 2
 
-* [Computational Development](https://theportus.github.io/presentations/usf-dh-history.html#/1)
-* [Hacking History](https://theportus.github.io/presentations/usf-dh-history.html#/)
+* [Computational Development](https://theportus.github.io/presentations/computer_evolution.html#/)
+* [Hacking History](https://theportus.github.io/presentations/hacking.html#/)
 * Talking to your Classmates: Slack
 * Visualizing History
     - Excel & Pivot Tables
