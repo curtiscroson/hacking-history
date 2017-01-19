@@ -1,8 +1,10 @@
 # Hacking History: Programming Digital Scholarship
 
-Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](http://thePortus.com/)<br />
+
 **HIS4936** *Hacking History: Programming Digital Scholarship*<br />
 [University of South Florida](http://www.usf.edu/), Fall 2016.
+
+Instructor: [David J. Thomas](mailto::davidjthomas@usf.edu), [thePortus.com](http://thePortus.com/)
 
 ---
 

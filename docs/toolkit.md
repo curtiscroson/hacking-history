@@ -1,20 +1,5 @@
 # Data-Driven Scholar's Toolkit
 
-## Troubleshooting
-
-* [Google](http://google.com) - Seriously
-* [Stack Overflow](http://stackoverflow.com/)
-* [Python 3 Reference Documentation](https://docs.python.org/3/library/index.html)
-* [Digital Humanities Slack Channel](http://digitalhumanities.slack.com)
-
----
-
-## Applying Programming to Historical Research
-
-* [The Programming Historian](http://programminghistorian.org/)
-* [The Historian's Macroscope](http://www.themacroscope.org/)
-
----
 
 ## Online Tools
 
@@ -62,5 +47,43 @@
 * [Tableau Academic for Students and Teachers](http://www.tableau.com/academic) - Data Visualization
 * [WordSmith](http://www.lexically.net/wordsmith/) - Text Concordance Tool for Windows
 * [Zotero](https://www.zotero.org/) - Bibliography/Citation Manager
+
+---
+
+## Troubleshooting
+
+* [Google](http://google.com) - Seriously
+* [Stack Overflow](http://stackoverflow.com/)
+* [Python 3 Reference Documentation](https://docs.python.org/3/library/index.html)
+* [Digital Humanities Slack Channel](http://digitalhumanities.slack.com)
+
+---
+
+## Applying Programming to Historical Research
+
+* [The Programming Historian](http://programminghistorian.org/)
+* [The Historian's Macroscope](http://www.themacroscope.org/)
+
+---
+
+## Blogs
+
+* [Miriam Posner](http://miriamposner.com/)
+* [Bethany Nowviskie](http://nowviskie.org/)
+* [Shawn Graham](http://electricarchaeology.ca)
+* [Scott Weingart](http://scottbot.net/)
+* [Ian Milligan](https://ianmilligan.ca/)
+
+---
+
+## Journals
+
+[Digital Humanities Quarterly](http://digitalhumanities.org/dhq/)
+
+---
+
+## Organizations
+
+[Association for Computers and the Humanities](http://ach.org/)
 
 ---
