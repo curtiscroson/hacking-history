@@ -71,7 +71,7 @@ TLDR Summary:
 
 1. Open your Terminal and enter the following...
 ``` shell
-pip3 install flake8 flake8-docstrings
+pip3 install flake8 flake8-pep257
 apm install linter linter-flake8
 ```
 
