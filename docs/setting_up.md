@@ -71,11 +71,11 @@ TLDR Summary:
 
 1. Open your Terminal and enter the following...
 ``` shell
-pip3 install flake8 flake8-docstrings
+pip3 install flake8
 apm install linter linter-flake8
 ```
 
-2. Then restart Atom and click 'Hack on the Init Script' at the Welcome Guide, and paste the following on the last line...
+2. **(OSX ONLY)** Then restart Atom and click 'Hack on the Init Script' at the Welcome Guide (or go to the File menu and choose 'init script'), and paste the following on the last line...
 ``` coffee
 
 process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
