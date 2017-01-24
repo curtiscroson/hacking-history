@@ -10,6 +10,7 @@ repo_name: 'GitHub'
 pages:
 - Home: 'index.md'
 - Setting Up: 'setting_up.md'
+- Files: 'files/files.md'
 - Plan: 'plan.md'
 - Sample Data: 'files/files.md'
 - Past Projects: 'past_projects.md'
