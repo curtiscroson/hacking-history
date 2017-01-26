@@ -10,6 +10,8 @@
 * Navigating the Terminal
     - ls, cd, (and other commands)
 
+---
+
 ### Week 2
 
 * [Computational Development](https://theportus.github.io/presentations/computer_evolution.html#/)
@@ -18,13 +20,20 @@
 * Visualizing History
     - Excel & Pivot Tables
     - Tableau
+
+---
+
+### Week 3
 * Python Basics
     - Command-line / Script / Compiled code
     - Variables, Conditionals
     - List, Dictionaries
     - Loops, & Functions
+    - Objects(preview)
 * USF News: Putting it into Practice
-    - Get/examine the raw file [files/usfnews_2014_raw.csv]
-    - Clean each text passage (Remove endlines, quotes)
+    - Get/examine the raw file [usfnews_2014_raw.csv](files/usfnews_2014_raw.csv)
+    - Clean each text passage (Remove endlines, editorials)
     - Write the results as a folder of .txt files
     - Open it in [Voyant Tools](http://voyant-tools.org/) or [OverviewDocs](https://www.overviewdocs.com/)
+
+---
