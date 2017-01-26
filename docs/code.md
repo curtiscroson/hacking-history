@@ -1,5 +1,4 @@
 # Code Examples
----
 
 ## Week 4
 
@@ -7,14 +6,12 @@
 
 Code for the USF World News exercise for [Week 4](plan.md)
 
-Necessary imports
-```python
-import csv
-import re
-```
+---
 
 Reading in a CSV
 ```python
+import csv
+
 def read_csv(filename, fields):
     """Returns file data as list of dicts
 
@@ -37,6 +34,8 @@ def read_csv(filename, fields):
 
 Scrub a single text
 ```python
+import re
+
 def clean_text(raw_text):
     """Scrubs the text of endlines, editorials, and extra spaces
 
