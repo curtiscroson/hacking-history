@@ -30,10 +30,18 @@
     - List, Dictionaries
     - Loops, & Functions
     - Objects(preview)
+
+---
+
+### Week 4
 * USF News: Putting it into Practice
     - Get/examine the raw file [usfnews_2014_raw.csv](files/usfnews_2014_raw.csv)
     - Clean each text passage (Remove endlines, editorials)
     - Write the results as a folder of .txt files
     - Open it in [Voyant Tools](http://voyant-tools.org/) or [OverviewDocs](https://www.overviewdocs.com/)
-
+* WebScraper: Attempting Sites
+    - Other Tools: BeautifulSoup
+    - Florida WPA Churches
+    - PHI Greek Epigraphy
+    - Student Finds
 ---
