@@ -34,6 +34,7 @@
 ---
 
 ### Week 4
+* Slack Features: Polls, Threads, Other Channels, Notifications
 * USF News: Putting it into Practice
     - Get/examine the raw file [usfnews_2014_raw.csv](files/usfnews_2014_raw.csv)
     - Clean each text passage (Remove endlines, editorials)
