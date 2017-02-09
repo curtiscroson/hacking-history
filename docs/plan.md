@@ -43,6 +43,24 @@
 * WebScraper: Attempting Sites
     - Other Tools: BeautifulSoup
     - Florida WPA Churches
+
+---
+
+### Week 5
+* Setup
+    - Download OpenRefine
+    - Sign up for a Github Account
+    - Sign up for a Trello Account
+* Projects
+    - Straw poll over roles
+* Webscraper.io: Trying Different Sites
     - PHI Greek Epigraphy
     - Student Finds
----
+* Data Scrubbing: OpenRefine
+    - [Florida Postcards](fl_postcards.xlsx)
+* Visualizing in Tableau
+    - Use Florida Postcards
+    - Join Tables
+* Project Management
+    - Trello
+    - GitHub
