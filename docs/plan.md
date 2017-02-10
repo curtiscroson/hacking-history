@@ -64,3 +64,7 @@
 * Project Management
     - Trello
     - GitHub
+
+---
+
+### Week 6
