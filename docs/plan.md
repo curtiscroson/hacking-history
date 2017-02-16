@@ -41,7 +41,7 @@
     - Write the results as a folder of .txt files
     - Open it in [Voyant Tools](http://voyant-tools.org/) or [OverviewDocs](https://www.overviewdocs.com/)
 * WebScraper: Attempting Sites
-    - Other Tools: BeautifulSoup
+    - Other Tools: BeautifulSoup (Mention)
     - Florida WPA Churches
 
 ---
@@ -50,7 +50,7 @@
 * Setup
     - Download OpenRefine
     - Sign up for a Github Account
-    - Sign up for a Trello Account
+    - Sign up for an Asana Account
 * Projects
     - Straw poll over roles
 * Webscraper.io: Trying Different Sites
@@ -58,9 +58,18 @@
     - Student Finds
 * Data Scrubbing: OpenRefine
     - [Florida Postcards](fl_postcards.xlsx)
+
+---
+
+### Week 6
+* Race, Class, and Gender
+    - Discuss Readings
+    - Data and reifying terms
+        - [ESPY Data Raw](files/espy_executions_raw.csv)
+        - [ESPY Data Cleaned](files/espy_executions.csv)
+* Project Management
+    - [GitHub](https://github.com/)
+    - [Project Starter Template](https://github.com/thePortus/his4936-starter)
 * Visualizing in Tableau
     - Use Florida Postcards
     - Join Tables
-* Project Management
-    - Trello
-    - GitHub
