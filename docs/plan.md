@@ -2,7 +2,7 @@
 
 ---
 
-### Week 1
+### Week 1: What are the Digital Humanities?
 
 * Naive Learning: The Dangers of Big Data
 * What is this Class, What is Digital Humanities?
@@ -12,8 +12,7 @@
 
 ---
 
-### Week 2
-
+### Week 2: First Steps
 * [Computational Development](https://theportus.github.io/presentations/computer_evolution.html#/)
 * [Hacking History](https://theportus.github.io/presentations/hacking.html#/)
 * Talking to your Classmates: Slack
@@ -23,7 +22,7 @@
 
 ---
 
-### Week 3
+### Week 3: Diving into Python
 * Python Basics
     - Command-line / Script / Compiled code
     - Variables, Conditionals
@@ -33,7 +32,7 @@
 
 ---
 
-### Week 4
+### Week 4: Data Scraping
 * Slack Features: Polls, Threads, Other Channels, Notifications
 * USF News: Putting it into Practice
     - Get/examine the raw file [usfnews_2014_raw.csv](files/usfnews_2014_raw.csv)
@@ -46,7 +45,7 @@
 
 ---
 
-### Week 5
+### Week 5: Scrubbing and Scraping
 * Setup
     - Download OpenRefine
     - Sign up for a Github Account
@@ -61,15 +60,30 @@
 
 ---
 
-### Week 6
-* Race, Class, and Gender
+### Week 6: Histories of Race, Class, and Gender
     - Discuss Readings
-    - Data and reifying terms
-        - [ESPY Data Raw](files/espy_executions_raw.csv)
-        - [ESPY Data Cleaned](files/espy_executions.csv)
+
+---
+
+### Week 7: Managing and Visualizing Data
+* Visualization and Project Management
 * Project Management
     - [GitHub](https://github.com/)
     - [Project Starter Template](https://github.com/thePortus/his4936-starter)
 * Visualizing in Tableau
-    - Use Florida Postcards
-    - Join Tables
+    - Data and Reifying Race/Class/Gender
+        - [ESPY Data Raw](files/espy_executions_raw.csv)
+        - [ESPY Data Cleaned](files/espy_executions.csv)
+    - Merging and Joining Data
+        - Use Florida Postcards
+        - Join Tables
+
+---
+
+### Week 8: Planning Projects
+
+---
+
+### Week 9: Text Analysis
+
+---
