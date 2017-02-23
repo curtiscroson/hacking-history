@@ -93,10 +93,11 @@ Setup:
 
 ---
 
-### Week 8: Planning Projects
+### Week 8: Visualization and Planning
 
 * Setup
     - Sign up for [Asana](https://www.asana.com)
+* Discussing Your Visualizations, 'Good' and 'Bad' Choices
 * Choosing Roles
 * Github Branching
 

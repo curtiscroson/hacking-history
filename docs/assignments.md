@@ -76,15 +76,17 @@
 
 ---
 
-### Week 8: Planning Projects
+### Week 8: Visualization and Planning
 
-- (All) Textbook, pp. 159-194
+- (DH I) Textbook, pp. 159-194
+- (DH I) Complete UCLA's introductory [Tableau Tutorial](http://dh101.humanities.ucla.edu/?page_id=163)
 - (All) Use any of the sample [data files](files/files.md) in Tableau
     - Create several visualizations in order to tell a meaningful story
     - Create a post (300-500 words) explaining the visualizations in the [assignment-discussion](https://hacking-history.slack.com/messages/assignment-discussion/) channel
 - (All) Fork the [Project Starter Template](https://github.com/thePortus/his4936-starter)
     - Make changes and create an outline for your future project
-    - Make a local commit and upload to GitHub
+    - Make a local commit and then sync it back to the Github server
+    - If you have problems, it's okay, but post about them on the Slack channel
 
 ---
 
